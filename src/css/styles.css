@@ -60,7 +60,7 @@ html, body {
   display: none;
 }
 .mdl-head .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
-.mdl-head .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {  
+.mdl-head .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar-container {
   overflow: visible;
 }
 .mdl-head .mdl-layout__tab-bar-container {
@@ -337,6 +337,7 @@ html, body {
 
 .karanraj {
   background:url('../images/users/karanraj.jpg') bottom right 50% no-repeat #3F51B5;
+  background-size: cover;
 }
 
 .rohan {

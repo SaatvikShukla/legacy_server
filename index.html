@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -25,16 +25,18 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/material.css">
+    <link rel="stylesheet" href="./src/css/animate.css">
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       <!-- pace.js -->
     <script src="./src/js/pace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./src/css/pace_flash.css">
     </head>
     <body class="mdl-head mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header mdl-layout__header--scroll head">
-          <div class="mdl-layout--large-screen-only mdl-layout__header-row logo"></div>
+          <div class="mdl-layout--large-screen-only mdl-layout__header-row logo animated fadeIn"></div>
           <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
             <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
             <a href="#technology" class="mdl-layout__tab">Technology</a>
@@ -52,9 +54,8 @@
               <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--6-col-phone">
                 <div class="mdl-card__supporting-text">
                   <h4>About Us</h4>
-                  Legacy Server is a team of Android Developers from different corners of the earth who met over XDA and other sources. We call this team as "Legacy Team".<br>
-                  <br>
- 				  Developers work on various Custom ROM's for various devices with the help of source code.
+                    Legacy Server is a prominent Organization in the Aftermarket Android side of the world.<br><br>
+                    We Help create great things, support multiple ROM organizations and offer our services of Linux Servers, Gerrit hosts, and Jenkins providers for dozens of people all over the globe <br><br>
                 </div>
               </div>
             </section>
@@ -479,5 +480,8 @@
         </main>
       </div>
     <script src="./src/js/material.min.js"></script>
+    <script>
+      $('.mdl-card').addClass('animated fadeIn');
+    </script>
   </body>
 </html>

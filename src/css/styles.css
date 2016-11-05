@@ -331,6 +331,10 @@ html, body {
   text-decoration: none;
 }
 
+.ashish {
+  background:url('../images/users/ashish.jpg') bottom right 45% no-repeat #3F51B5;
+}
+
 .deepak {
   background:url('../images/users/deepak.png') bottom right 45% no-repeat #3F51B5;
 }
@@ -338,6 +342,10 @@ html, body {
 .karanraj {
   background:url('../images/users/karanraj.jpg') bottom right 50% no-repeat #3F51B5;
   background-size: cover;
+}
+
+.hafeez {
+  background:url('../images/users/hafeez.png') bottom right 45% no-repeat #3F51B5;
 }
 
 .rohan {
@@ -348,16 +356,36 @@ html, body {
   background:url('../images/users/lukasz.jpg') bottom right 45% no-repeat #3F51B5;
 }
 
+.saatvik {
+  background:url('../images/users/saatvik.jpg') top right 45% no-repeat #3F51B5;
+}
+
+.sanyam {
+  background:url('../images/users/sanyam.jpg') top right 45% no-repeat #3F51B5;
+}
+
+.sarthak {
+  background:url('../images/users/sarthak.jpg') bottom right 45% no-repeat #3F51B5;
+}
+
 .shivam {
   background:url('../images/users/shivam.jpg') bottom right 45% no-repeat #3F51B5;
+}
+
+.soham {
+  background:url('../images/users/soham.jpg') top right 45% no-repeat #3F51B5;
 }
 
 .sudhanshu {
   background:url('../images/users/sud.jpg') bottom right 45% no-repeat #3F51B5;
 }
 
+.swapnil {
+  background:url('../images/users/swapnil.jpg') top right 45% no-repeat #3F51B5;
+}
+
 .sourav {
-  background:url('../images/users/sourav.jpg') bottom right 45% no-repeat #3F51B5;
+  background:url('../images/users/sourav.jpg') top right 45% no-repeat #3F51B5;
 }
 
 .vatsal {
@@ -366,4 +394,28 @@ html, body {
 
 .vikram {
   background:url('../images/users/vikram.jpg') bottom right 45% no-repeat #3F51B5;
+}
+
+.jack {
+  background:url('../images/users/jack.jpg') bottom left 1% no-repeat #3F51B5;
+}
+
+.rc {color: #008042}
+.rd {color: #FF8C00}
+.rt {color: #0000FF}
+.mod {color: #4B0082}
+.serverprogress {
+  width: 100%;
+}
+.serverprogress-supporting {
+  font-weight: 600;
+  margin:10px;
+  float: right;
+}
+.aicp {
+  height: 200px;
+  width: 200px;
+  padding: 1px;
+  padding-left: 5px;
+  padding-top: 5px;
 }

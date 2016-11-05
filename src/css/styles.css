@@ -369,24 +369,12 @@ body {
     background: url('../images/free-vector-server-clip-art_116407_Server_clip_art_hight.png') bottom right 15% no-repeat #3F51B5;
 }
 
-.specImg {
-    height: 25px;
-    width: 25px;
-    padding: 12px;
-}
-
-.specList {
-    line-height: 45px;
-    list-style: none;
-    text-decoration: none;
-}
-
 .ashish {
     background: url('../images/users/ashish.jpg') bottom right 45% no-repeat #3F51B5;
 }
 
 .deepak {
-    background: url('../images/users/deepak.png') bottom right 45% no-repeat #3F51B5;
+    background: url('../images/users/deepak.jpg') bottom right 45% no-repeat #3F51B5;
 }
 
 .karanraj {
@@ -477,9 +465,44 @@ body {
 }
 
 .aicp {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     padding: 1px;
     padding-left: 5px;
     padding-top: 5px;
+    position: absolute;
+    left: 0px;
+}
+
+.mdl-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serverCard {
+    width: 350px;
+    max-width: 100%;
+    height: 700px;
+    max-height: 100%;
+}
+
+.serverTitle {
+    color: #fff;
+    background:url('../images/free-vector-server-clip-art_116407_Server_clip_art_hight.png') bottom right 15% no-repeat #3F51B5;
+    background-color: #3F51B5;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.servertext {}
+
+.servertext::after {
+    content: "";
+    background-color: lightgray;
+    width: 85%;
+    height: 1px;
+    margin: 25px auto 0 auto;
+    display: block;
+    text-align: center;
 }

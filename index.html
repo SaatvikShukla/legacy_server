@@ -1,782 +1,870 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A Webiste for Legacy Server">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="src/ico/favicon.ico">
     <title>Legacy Server</title>
-
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
-
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="src/css/material.css">
     <link rel="stylesheet" href="src/css/animate.css">
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-      <!-- pace.js -->
+    <!-- pace.js -->
     <script src="src/js/pace.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="src/css/pace_flash.css">
-    </head>
-    <body class="mdl-head mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+</head>
+
+<body class="mdl-head mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header mdl-layout__header--scroll head">
-          <div class="mdl-layout--large-screen-only mdl-layout__header-row logo animated fadeIn"></div>
-          <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-            <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-            <a href="#technology" class="mdl-layout__tab">Technology</a>
-            <a href="#legacyteam" class="mdl-layout__tab">Legacy Team</a>
-            <a href="#contributors" class="mdl-layout__tab">Contributors</a>            
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="share-toggle">
-              <i class="material-icons">share</i>
-            </button>
-          </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row logo animated fadeIn"></div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+                <a href="#technology" class="mdl-layout__tab">Technology</a>
+                <a href="#legacyteam" class="mdl-layout__tab">Legacy Team</a>
+                <a href="#contributors" class="mdl-layout__tab">Contributors</a>
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="share-toggle">
+                    <i class="material-icons">share</i>
+                </button>
+            </div>
         </header>
         <main class="mdl-layout__content">
-          <div class="mdl-layout__tab-panel is-active" id="overview">
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    
-              <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--6-col-phone">
-                <div class="mdl-card__supporting-text">
-                  <h4>About legacy Server</h4>
-                    Legacy Server is a prominent Organization in the Aftermarket Android side of the world.<br><br>
-                    We Help create great things, support multiple ROM organizations and offer our services of Linux Servers, Gerrit hosts, and Jenkins providers for dozens of people all over the globe <br><br>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--6-col-phone">
-                 <div class="mdl-card__supporting-text">
-                   <h4>About Legacy Team</h4>
-                      We are the Team of normal people around the diffrent corners of Earth. Android brought us together and we formed the "Legacy Team".<br><br>
-                      Legacy Team had a passion and love for Android and they started to contribute the community in one or anotherway.<br><br>
-                      Team decided to help the beginners who want to learn about Android Compliation and ROM Cooking but they cannot start due to their low Desktop/Laptop Specifications and slow or low Bandwidth of Internet.<br><br>
-                      We brought up the Legacy Servers for the Community with the best services available in market.<br><br>
-                  </div>
-               </div>
-             </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <div class="mdl-card mdl-cell mdl-cell--12-col">
-                <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                  <h4 class="mdl-cell mdl-cell--12-col">Details</h4>
-                  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                    <div class="section__circle-container__circle mdl-color--primary"></div>
-
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                    <h5>Legacy Team</h5>
-                    Know more about the people in Legacy Team at <a href="#">Legacy Team tab</a>.
-                  </div>
-                  <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                    <div class="section__circle-container__circle mdl-color--primary"></div>
-                  </div>
-                  <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                    <h5>Contributors</h5>
-                     Know more about the people who helped and made Legacy Server possible at<a href="#">Contributors tab</a>.
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <div class="mdl-card mdl-cell mdl-cell--12-col">
-                <div class="mdl-card__supporting-text">
-                  <h4>Technology</h4>
-                  Legacy Server houses some decent specs, check details at <a href="#">Technology tab</a>.
-                </div>
-              </div>
-            </section>
-            <section class="section--footer"></section>
-          </div>
-          
-          <div class="mdl-layout__tab-panel" id="technology">
-            <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-            </header>
-
-            <section class="section--center mdl-grid mdl-grid--no-spacing">
-               <div class="mdl-card mdl-shadow--2dp mdl-card-square">
-                 <div class="mdl-card__title mdl-card--expand">
-                   <h2 class="mdl-card__title-text">Godfather</h2>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <div id="godfather" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">10/10 slots in use</span></div><br>
-                   <ul class="specList">
-                     <li>
-                       <h6><img class="specImg" alt="" src="src/images/arch.png">Arch linux</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" src="src/images/hdd.svg">2x HDD (Western Digital Re 3TB Datacenter & TOSHIBA DT01ACA300 3TB)</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 4096 MB DDR3 DIMM Synchronous 1333 MHz</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
-                     </li>
-                     <li>
-                       <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
-                     </li>
-                   </ul>
-                 </div>
-               </div>
-             </section>
-
-              <section class="section--center mdl-grid mdl-grid--no-spacing">
-                  <div class="mdl-card mdl-shadow--2dp mdl-card-square">
-                    <div class="mdl-card__title mdl-card--expand">
-                      <h2 class="mdl-card__title-text">Speedhorn #2</h2>
+            <div class="mdl-layout__tab-panel is-active" id="overview">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--6-col-phone">
+                        <div class="mdl-card__supporting-text">
+                            <h4>About legacy Server</h4> Legacy Server is a prominent Organization in the Aftermarket Android side of the world.
+                            <br>
+                            <br> We Help create great things, support multiple ROM organizations and offer our services of Linux Servers, Gerrit hosts, and Jenkins providers for dozens of people all over the globe
+                            <br>
+                            <br>
+                        </div>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                      <div id="speedhorn" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">10/10 slots in use</span></div><br>
-                      <ul class="specList">
-                        <li>
-                          <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1600 MHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
                 </section>
-
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--8-col-tablet mdl-cell--6-col-phone">
+                        <div class="mdl-card__supporting-text">
+                            <h4>About Legacy Team</h4> We are the Team of normal people around the diffrent corners of Earth. Android brought us together and we formed the "Legacy Team".
+                            <br>
+                            <br> Legacy Team had a passion and love for Android and they started to contribute the community in one or anotherway.
+                            <br>
+                            <br> Team decided to help the beginners who want to learn about Android Compliation and ROM Cooking but they cannot start due to their low Desktop/Laptop Specifications and slow or low Bandwidth of Internet.
+                            <br>
+                            <br> We brought up the Legacy Servers for the Community with the best services available in market.
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                            <h4 class="mdl-cell mdl-cell--12-col">Details</h4>
+                            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                                <div class="section__circle-container__circle mdl-color--primary"></div>
+                            </div>
+                            <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                                <h5>Legacy Team</h5> Know more about the people in Legacy Team at <a href="#">Legacy Team tab</a>.
+                            </div>
+                            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                                <div class="section__circle-container__circle mdl-color--primary"></div>
+                            </div>
+                            <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                                <h5>Contributors</h5> Know more about the people who helped and made Legacy Server possible at<a href="#">Contributors tab</a>.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="mdl-card__supporting-text">
+                            <h4>Technology</h4> Legacy Server houses some decent specs, check details at <a href="#">Technology tab</a>.
+                        </div>
+                    </div>
+                </section>
+                <section class="section--footer"></section>
+            </div>
+            <div class="mdl-layout__tab-panel" id="technology">
+                <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+                </header>
                 <section class="section--center mdl-grid mdl-grid--no-spacing">
-                  <div class="mdl-card mdl-shadow--2dp mdl-card-square">
-                    <div class="mdl-card__title mdl-card--expand">
-                      <h2 class="mdl-card__title-text">Scorpion #3</h2>
+                    <div class="mdl-card mdl-shadow--2dp mdl-card-square">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Godfather</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <div id="godfather" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">10/10 slots in use</span></div>
+                            <br>
+                            <ul class="specList">
+                                <li>
+                                    <h6><img class="specImg" alt="" src="src/images/arch.png">Arch linux</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/hdd.svg">2x HDD (Western Digital Re 3TB Datacenter & TOSHIBA DT01ACA300 3TB)</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 4096 MB DDR3 DIMM Synchronous 1333 MHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                      <div id="scorpion" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">9/10 slots in use</span></div><br>
-                      <ul class="specList">
-                        <li>
-                          <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
                 </section>
-
-                 <section class="section--center mdl-grid mdl-grid--no-spacing">
-                  <div class="mdl-card mdl-shadow--2dp mdl-card-square">
-                    <div class="mdl-card__title mdl-card--expand">
-                      <h2 class="mdl-card__title-text">Memripper #4</h2>
-                      <img class="aicp" alt="" src="src/images/aicp.png">
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <div id="memripper" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">1/1 slots in use</span></div><br>
-                      <ul class="specList">
-                        <li>
-                          <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </section>
-
                 <section class="section--center mdl-grid mdl-grid--no-spacing">
-                  <div class="mdl-card mdl-shadow--2dp mdl-card-square">
-                    <div class="mdl-card__title mdl-card--expand">
-                      <h2 class="mdl-card__title-text">Fury #5</h2>
-                      <img class="aicp" alt="" src="src/images/aicp.png">
+                    <div class="mdl-card mdl-shadow--2dp mdl-card-square">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Speedhorn #2</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <div id="speedhorn" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">10/10 slots in use</span></div>
+                            <br>
+                            <ul class="specList">
+                                <li>
+                                    <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1600 MHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                      <div id="fury" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">1/1 slots in use</span></div><br>
-                      <ul class="specList">
-                        <li>
-                          <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
-                        </li>
-                        <li>
-                          <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
                 </section>
-            <section class="section--footer"></section>
-          </div>
-
-          <div class="mdl-layout__tab-panel" id="legacyteam">
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white deepak">
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="Deepak-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="Deepak-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=4835726"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/TechExhibeo"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/+DeepakSharmaTechExhibeo"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/TechExhibeo"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Deepak Sharma</h4>
-                  <h6><span class="rc">Recognized Contributor</span> / Server Representative</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:TechExhibeo@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white hafeez">
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                     <button id="hafeez-menu-lower-right"
-                             class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                         <i class="material-icons">more_vert</i>
-                     </button>
-                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="hafeez-menu-lower-right">
-                         <a target="_blank" href="http://forum.xda-developers.com/member.php?u="><li class="mdl-menu__item">XDA</li></a>
-                         <a target="_blank" href=""><li class="mdl-menu__item">Facebook</li></a>
-                         <a target="_blank" href=""><li class="mdl-menu__item">Google+</li></a>
-                         <a target="_blank" href=""><li class="mdl-menu__item">GitHub</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Hafeez Ullakhan</h4>
-                   <h6>""</h6>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-             <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white jack">
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                     <button id="jack-menu-lower-right"
-                             class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                         <i class="material-icons">more_vert</i>
-                     </button>
-                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="jack-menu-lower-right">
-                         <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5216756"><li class="mdl-menu__item">XDA</li></a>
-                         <a target="_blank" href="https://plus.google.com/108711103787588822407/posts"><li class="mdl-menu__item">Google+</li></a>
-                         <a target="_blank" href="https://github.com/Jackeagle"><li class="mdl-menu__item">GitHub</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Jackeagle</h4>
-                   <h6><span class="mod">Forum Moderator</span> / <span class="rd">Recognized Developer</span></h6>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:jackeagle102@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white rohan">
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="Rohan-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="Rohan-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5790433"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/rohan.purohit"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/114189496354866240357"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/rohanpurohit"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Rohan Purohit</h4>
-                  <h6>"I am the one who knocks."</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:purohit.rohan@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white saatvik">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="Saatvik-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="Saatvik-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5416670"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/saatvik.shukla"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/saatvikshukla"><li class="mdl-menu__item">GitHub</li></a>
-                        <a target="_blank" href="https://instagram.com/saatvikshukla"><li class="mdl-menu__item">Instagram</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Saatvik Shukla</h4>
-                  <h6></h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:me@saatvikshukla.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sarthak">
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                     <button id="sarthak-menu-lower-right"
-                             class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                         <i class="material-icons">more_vert</i>
-                     </button>
-                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="sarthak-menu-lower-right">
-                         <a href=""><li class="mdl-menu__item">Facebook</li></a>
-                         <a href=""><li class="mdl-menu__item">MyColorScreen</li></a>
-                         <a href=""><li class="mdl-menu__item">Instagram</li></a>
-                         <a href="http://forum.xda-developers.com/member.php?u="><li class="mdl-menu__item">XDA</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Sarthak Narang</h4>
-                   <h6>cm14 guy</h6>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white shivam">
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="Shivam-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="Shivam-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5857055"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/shivamdesai9"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/ShivamDesaiFlashhhh"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/desaishivam26"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Shivam Desai</h4>
-                  <h6>Flashhhh @xda</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:shivamdesai26@yahoo.in?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white stefan">
-                 <i class="material-icons">user_circle_filled</i>
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                     <button id="stefan-menu-lower-right"
-                             class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                         <i class="material-icons">more_vert</i>
-                     </button>
-                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="stefan-menu-lower-right">
-                         <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100"><li class="mdl-menu__item">XDA</li></a>
-                         <a target="_blank" href="https://www.facebook.com/sud.vastav"><li class="mdl-menu__item">Facebook</li></a>
-                         <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7"><li class="mdl-menu__item">Google+</li></a>
-                         <a target="_blank" href="https://github.com/sud-vastav"><li class="mdl-menu__item">GitHub</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Stefan Ivic</h4>
-                   <h6></h6>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sudhanshu">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="sudhanshu-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="sudhanshu-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/sud.vastav"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/sud-vastav"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Sudhanshu Srivastav</h4>
-                  <h6>Contributing to entropy since 1996</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:sudvastavss@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white swapnil">
-                 <i class="material-icons">user_circle_filled</i>
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                    <button id="swapnil-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="swapnil-menu-lower-right">
-                         <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100"><li class="mdl-menu__item">XDA</li></a>
-                         <a target="_blank" href="https://www.facebook.com/sud.vastav"><li class="mdl-menu__item">Facebook</li></a>
-                         <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7"><li class="mdl-menu__item">Google+</li></a>
-                         <a target="_blank" href="https://github.com/sud-vastav"><li class="mdl-menu__item">GitHub</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Swapnil Kadlag</h4>
-                   <h6></h6>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-             <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vatsal">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="vatsal-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="vatsal-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=4910973"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/vatsal.koradia"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/117351418904714728615"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/koradiavatsal"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Vatsal Koradia</h4>
-                  <h6>"Learning to be someone big. Thanks to LegacyTeam for supporting me always."</h6>
-                  I would like to thank the entire legacy team for all they have done for me. I am a fun loving guy interested in learning and developing new stuffs for android as well as linux
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:koradiavatsal@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-             <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vikram">
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="Vikram-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="Vikram-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5012305"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/vickysingh111"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/113200991143986041720/"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/fenixxx"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Vikram Chauhan</h4>
-                  <h6>Fenix@XDA</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:vickychauhan111@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vivek">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="vivek-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="vivek-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u="><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/vivek1neel"><li class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/+vivekneelcfi55"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/VivekNeel"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Vivek Neel</h4>
-                  <h6>Vivek_Neel @xda</h6>
-                  loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing 
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:vivek2neel@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--footer mdl-color--white mdl-grid">
-            </section>
-          </div>
-
-          <div class="mdl-layout__tab-panel" id="contributors">
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-               <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white ashish">
-               </header>
-               <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                 <div class="wrapper-menu-lower-right">
-                     <button id="ashish-menu-lower-right"
-                             class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                         <i class="material-icons">more_vert</i>
-                     </button>
-                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                         for="ashish-menu-lower-right">
-                         <a href=""><li class="mdl-menu__item">Facebook</li></a>
-                         <a href=""><li class="mdl-menu__item">Instagram</li></a>
-                         <a href="http://forum.xda-developers.com/member.php?u=5030550"><li class="mdl-menu__item">XDA</li></a>
-                     </ul>
-                 </div>
-                 <div class="mdl-card__supporting-text">
-                   <h4>Ashish bansal</h4>
-                   <h6>Legacy's Almighty</h6>
-                   <br>
-                 </div>
-                 <div class="mdl-card__actions">
-                   <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                 </div>
-               </div>
-             </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white karanraj">
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="karanraj-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="karanraj-menu-lower-right">
-                        <a href="https://www.facebook.com/karankapur92"><li class="mdl-menu__item">Facebook</li></a>
-                        <a href="mycolorscreen.com/krx"><li class="mdl-menu__item">MyColorScreen</li></a>
-                        <a href="https://www.instagram.com/karanrajkapur"><li class="mdl-menu__item">Instagram</li></a>
-                        <a href="https://www.facebook.com/karankapur92"><li class="mdl-menu__item">Facebook</li></a>
-                        <a href="http://forum.xda-developers.com/member.php?u=5030550"><li class="mdl-menu__item">XDA</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>KaranRaj Kapur</h4>
-                  <h6>Visual Communicator</h6>
-                  Legacy Server’s in-house visuals creator.<br>
-          I know nothing about cooking ROMs yet flashing and beta testing is my poison. Always wanted to contribute towards the Legacy Devices in some way, so you see...
-          <br><br>
-          Jon Snow knows nothing, but thankfully I ain’t Jon Snow.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:karankapur92@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sourav">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="sourav-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="sourav-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u="><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/notbadx"><li disabled class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/u/0/"><li disabled class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/"><li disabled class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Sourav Deep</h4>
-                  <h6></h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-              <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white lukasz">
-                <i class="material-icons">user_circle_filled</i>
-              </header>
-              <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-                <div class="wrapper-menu-lower-right">
-                    <button id="lukasz-menu-lower-right"
-                            class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                        <i class="material-icons">more_vert</i>
-                    </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        for="lukasz-menu-lower-right">
-                        <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5075128"><li class="mdl-menu__item">XDA</li></a>
-                        <a target="_blank" href="https://www.facebook.com/"><li disabled class="mdl-menu__item">Facebook</li></a>
-                        <a target="_blank" href="https://plus.google.com/108108436166506337243"><li class="mdl-menu__item">Google+</li></a>
-                        <a target="_blank" href="https://github.com/luk1337"><li class="mdl-menu__item">GitHub</li></a>
-                    </ul>
-                </div>
-                <div class="mdl-card__supporting-text">
-                  <h4>Lukasz Nowicki - Former Server Administrator</h4>
-                  <h6>"I still feel like no one knows who I am. I still feel anonymous."</h6>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-                </div>
-                <div class="mdl-card__actions">
-                  <a href="mailto:priv.luk@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
-                </div>
-              </div>
-            </section>
-            <section class="section--footer mdl-color--white mdl-grid">
-            </section>
-          </div>
+                <section class="section--center mdl-grid mdl-grid--no-spacing">
+                    <div class="mdl-card mdl-shadow--2dp mdl-card-square">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Scorpion #3</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <div id="scorpion" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">9/10 slots in use</span></div>
+                            <br>
+                            <ul class="specList">
+                                <li>
+                                    <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing">
+                    <div class="mdl-card mdl-shadow--2dp mdl-card-square">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Memripper #4</h2>
+                            <img class="aicp" alt="" src="src/images/aicp.png">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <div id="memripper" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">1/1 slots in use</span></div>
+                            <br>
+                            <ul class="specList">
+                                <li>
+                                    <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing">
+                    <div class="mdl-card mdl-shadow--2dp mdl-card-square">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h2 class="mdl-card__title-text">Fury #5</h2>
+                            <img class="aicp" alt="" src="src/images/aicp.png">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <div id="fury" class="mdl-progress mdl-js-progress serverprogress"><span class="serverprogress-supporting">1/1 slots in use</span></div>
+                            <br>
+                            <ul class="specList">
+                                <li>
+                                    <h6><img class="specImg" alt="Linux version 3.16.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.8.4 (Debian 4.8.4-1) )" src="src/images/debian.png">Debian GNU/Linux 8 (jessie)</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/cpu.svg">Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/hdd.svg">2x TOSHIBA DT01ACA300 3TB</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ram.svg">4x Kingston 8192 MB DDR3 DIMM Synchronous 1333 MHz</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" alt="Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 09)" src="src/images/lan.png">1GbPS connection</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/jenkins.png">Jenkins Support</h6>
+                                </li>
+                                <li>
+                                    <h6><img class="specImg" src="src/images/ssh.png">SSH access</h6>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--footer"></section>
+            </div>
+            <div class="mdl-layout__tab-panel" id="legacyteam">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white deepak">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="Deepak-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="Deepak-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=4835726">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/TechExhibeo">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/+DeepakSharmaTechExhibeo">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/TechExhibeo">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Deepak Sharma</h4>
+                            <h6><span class="rc">Recognized Contributor</span> / Server Representative</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:TechExhibeo@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white hafeez">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="hafeez-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="hafeez-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Hafeez Ullakhan</h4>
+                            <h6>""</h6>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white jack">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="jack-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="jack-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5216756">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/108711103787588822407/posts">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/Jackeagle">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Jackeagle</h4>
+                            <h6><span class="mod">Forum Moderator</span> / <span class="rd">Recognized Developer</span></h6>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:jackeagle102@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white rohan">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="Rohan-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="Rohan-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5790433">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/rohan.purohit">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/114189496354866240357">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/rohanpurohit">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Rohan Purohit</h4>
+                            <h6>"I am the one who knocks."</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:purohit.rohan@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white saatvik">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="Saatvik-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="Saatvik-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5416670">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/saatvik.shukla">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/saatvikshukla">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                                <a target="_blank" href="https://instagram.com/saatvikshukla">
+                                    <li class="mdl-menu__item">Instagram</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Saatvik Shukla</h4>
+                            <h6></h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:me@saatvikshukla.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sarthak">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="sarthak-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="sarthak-menu-lower-right">
+                                <a href="">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a href="">
+                                    <li class="mdl-menu__item">MyColorScreen</li>
+                                </a>
+                                <a href="">
+                                    <li class="mdl-menu__item">Instagram</li>
+                                </a>
+                                <a href="http://forum.xda-developers.com/member.php?u=">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Sarthak Narang</h4>
+                            <h6>cm14 guy</h6>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white shivam">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="Shivam-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="Shivam-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5857055">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/shivamdesai9">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/ShivamDesaiFlashhhh">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/desaishivam26">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Shivam Desai</h4>
+                            <h6>Flashhhh @xda</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:shivamdesai26@yahoo.in?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white stefan">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="stefan-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="stefan-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/sud.vastav">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/sud-vastav">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Stefan Ivic</h4>
+                            <h6></h6>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sudhanshu">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="sudhanshu-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="sudhanshu-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/sud.vastav">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/sud-vastav">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Sudhanshu Srivastav</h4>
+                            <h6>Contributing to entropy since 1996</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:sudvastavss@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white swapnil">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="swapnil-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="swapnil-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5338100">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/sud.vastav">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/+SudhanshuSrivastav_7">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/sud-vastav">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Swapnil Kadlag</h4>
+                            <h6></h6>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vatsal">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="vatsal-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="vatsal-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=4910973">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/vatsal.koradia">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/117351418904714728615">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/koradiavatsal">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Vatsal Koradia</h4>
+                            <h6>"Learning to be someone big. Thanks to LegacyTeam for supporting me always."</h6> I would like to thank the entire legacy team for all they have done for me. I am a fun loving guy interested in learning and developing new stuffs for android as well as linux
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:koradiavatsal@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vikram">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="Vikram-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="Vikram-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5012305">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/vickysingh111">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/113200991143986041720/">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/fenixxx">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Vikram Chauhan</h4>
+                            <h6>Fenix@XDA</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:vickychauhan111@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white vivek">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="vivek-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="vivek-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/vivek1neel">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/+vivekneelcfi55">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/VivekNeel">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Vivek Neel</h4>
+                            <h6>Vivek_Neel @xda</h6> loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing loren ipsum some thing
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:vivek2neel@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--footer mdl-color--white mdl-grid">
+                </section>
+            </div>
+            <div class="mdl-layout__tab-panel" id="contributors">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white ashish">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="ashish-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="ashish-menu-lower-right">
+                                <a href="">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a href="">
+                                    <li class="mdl-menu__item">Instagram</li>
+                                </a>
+                                <a href="http://forum.xda-developers.com/member.php?u=5030550">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Ashish bansal</h4>
+                            <h6>Legacy's Almighty</h6>
+                            <br>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white karanraj">
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="karanraj-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="karanraj-menu-lower-right">
+                                <a href="https://www.facebook.com/karankapur92">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a href="mycolorscreen.com/krx">
+                                    <li class="mdl-menu__item">MyColorScreen</li>
+                                </a>
+                                <a href="https://www.instagram.com/karanrajkapur">
+                                    <li class="mdl-menu__item">Instagram</li>
+                                </a>
+                                <a href="https://www.facebook.com/karankapur92">
+                                    <li class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a href="http://forum.xda-developers.com/member.php?u=5030550">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>KaranRaj Kapur</h4>
+                            <h6>Visual Communicator</h6> Legacy Server’s in-house visuals creator.
+                            <br> I know nothing about cooking ROMs yet flashing and beta testing is my poison. Always wanted to contribute towards the Legacy Devices in some way, so you see...
+                            <br>
+                            <br> Jon Snow knows nothing, but thankfully I ain’t Jon Snow.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:karankapur92@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white sourav">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="sourav-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="sourav-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/notbadx">
+                                    <li disabled class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/u/0/">
+                                    <li disabled class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/">
+                                    <li disabled class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Sourav Deep</h4>
+                            <h6></h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white lukasz">
+                        <i class="material-icons">user_circle_filled</i>
+                    </header>
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="wrapper-menu-lower-right">
+                            <button id="lukasz-menu-lower-right" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                                <i class="material-icons">more_vert</i>
+                            </button>
+                            <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="lukasz-menu-lower-right">
+                                <a target="_blank" href="http://forum.xda-developers.com/member.php?u=5075128">
+                                    <li class="mdl-menu__item">XDA</li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/">
+                                    <li disabled class="mdl-menu__item">Facebook</li>
+                                </a>
+                                <a target="_blank" href="https://plus.google.com/108108436166506337243">
+                                    <li class="mdl-menu__item">Google+</li>
+                                </a>
+                                <a target="_blank" href="https://github.com/luk1337">
+                                    <li class="mdl-menu__item">GitHub</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>Lukasz Nowicki - Former Server Administrator</h4>
+                            <h6>"I still feel like no one knows who I am. I still feel anonymous."</h6> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="mailto:priv.luk@gmail.com?Subject=For%20Legacy%20Server" target="_blank" class="mdl-button">E-mail</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="section--footer mdl-color--white mdl-grid">
+                </section>
+            </div>
         </main>
-      </div>
+    </div>
     <script src="src/js/material.min.js"></script>
     <script>
-      $('.mdl-card').addClass('animated fadeIn');
+    $('.mdl-card').addClass('animated fadeIn');
     </script>
     <script>
-      document.querySelector('#godfather').addEventListener('mdl-componentupgraded', function() {
+    document.querySelector('#godfather').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress(100);
-      });
-      document.querySelector('#speedhorn').addEventListener('mdl-componentupgraded', function() {
+    });
+    document.querySelector('#speedhorn').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress(100);
-      });
-      document.querySelector('#scorpion').addEventListener('mdl-componentupgraded', function() {
+    });
+    document.querySelector('#scorpion').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress(90);
-      });
-      document.querySelector('#memripper').addEventListener('mdl-componentupgraded', function() {
+    });
+    document.querySelector('#memripper').addEventListener('mdl-componentupgraded', function() {
         this.MaterialProgress.setProgress(100);
-      });
-      document.querySelector('#fury').addEventListener('mdl-componentupgraded', function() {
-       this.MaterialProgress.setProgress(100);
-      });
-    </script>    
-  </body>
+    });
+    document.querySelector('#fury').addEventListener('mdl-componentupgraded', function() {
+        this.MaterialProgress.setProgress(100);
+    });
+    </script>
+</body>
+
 </html>
